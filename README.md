@@ -1,4 +1,5 @@
-# APIinaShell
+# APIinaShell ![powered_by_ollama](https://github.com/perpendicularai/APIinaShell/assets/146530480/17f63654-3a1c-4188-8721-62de611725bf)
+
 An API deployed using fastapi running Ollama as the backend to do LLM inference.
 
 ## How to
