@@ -2,6 +2,12 @@
 
 An API deployed using fastapi running Ollama as the backend to do LLM inference.
 
+## Dependencies
+- fastapi
+- requests
+- uvicorn
+Install with `pip`.
+
 ## How to
 To start using the api, you need to ensure that Ollama is running and being served at the address configured in the script. This could be any address. If you have not installed Ollama, see [Ollama](https://ollama.com)
 - In a command prompt, run `py` or `python` `apiinashell.py`.
