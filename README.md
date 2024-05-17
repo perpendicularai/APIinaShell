@@ -6,6 +6,7 @@ An API deployed using fastapi running Ollama as the backend to do LLM inference.
 - fastapi
 - requests
 - uvicorn
+
 Install with `pip`.
 
 ## How to
