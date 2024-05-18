@@ -1,6 +1,6 @@
 # APIinaShell ![powered_by_ollama](https://github.com/perpendicularai/APIinaShell/assets/146530480/17f63654-3a1c-4188-8721-62de611725bf)
 
-An API deployed using fastapi running Ollama as the backend to do LLM inference.
+An API deployed using fastapi running Ollama as the backend to do LLM inference. The purpose of the script is to abstract the complexity of deploying an Ollama API instance on a global scale.
 
 ## Dependencies
 - fastapi
