@@ -1,4 +1,4 @@
-# APIinaShell ![powered_by_ollama](https://github.com/perpendicularai/APIinaShell/assets/146530480/17f63654-3a1c-4188-8721-62de611725bf)
+# APIinaShell
 
 An API deployed using fastapi running Ollama as the backend to do LLM inference. The purpose of the script is to abstract the complexity of deploying an Ollama API instance on a global scale.
 
@@ -10,7 +10,7 @@ An API deployed using fastapi running Ollama as the backend to do LLM inference.
 Install with `pip`.
 
 ## How to
-To start using the api, you need to ensure that Ollama is running and being served at the address configured in the script. This could be any address. If you have not installed Ollama, see [Ollama](https://ollama.com)
+To start using the api, you need to ensure that LlamaCpp is installed.
 - In a command prompt, run `py` or `python` `apiinashell.py`.
 This should start the api server at the configured address.
 - Open a browser and browse to the address displayed in the command prompt. You should see the api interface.
