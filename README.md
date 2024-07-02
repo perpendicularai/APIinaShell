@@ -1,6 +1,6 @@
 # APIinaShell
 
-An API deployed using fastapi running Ollama as the backend to do LLM inference. The purpose of the script is to abstract the complexity of deploying an Ollama API instance on a global scale.
+An API deployed using fastapi running LlamaCpp as the backend to do LLM inference. The purpose of the script is to abstract the complexity of deploying a LlamaCpp API instance on a global scale.
 
 ## Dependencies
 - fastapi
