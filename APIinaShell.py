@@ -1,4 +1,4 @@
-from fastapi import FastAPI, File, UploadFile, Form
+from fastapi import FastAPI
 import uvicorn
 from llama_cpp import Llama
 import os
