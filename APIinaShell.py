@@ -7,7 +7,7 @@ app = FastAPI()
 
 username = os.getenv("USERNAME")
 
-@app.post("/generate/")
+@app.post("/api/generate/")
 async def gentext(prompt: str):
     llm = Llama(
         model_path=f"<PATH TO GGUF MODEL>"
