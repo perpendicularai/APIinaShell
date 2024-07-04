@@ -14,7 +14,7 @@ Install with `pip`.
 To start using the api, you need to ensure that LlamaCpp is installed.
 - In a command prompt, run `uvicorn apiinashell:app --reload --host <ip address> --port <port number>`.
 This should start the api server at the configured address.
-- Open a browser and browse to the address displayed in the command prompt. You should see the api interface.
+- Open a browser and browse to the address displayed in the command prompt by appending 📰 /docs. You should see the api interface.
 - You can then enter a string to test it out. See video :
 [APIinsShell](https://github.com/perpendicularai/APIinaShell/assets/146530480/87491a67-4691-4574-90ae-ed55d4126b58)
 
