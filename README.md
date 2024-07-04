@@ -3,15 +3,16 @@
 An API deployed using fastapi running LlamaCpp as the backend to do LLM inference. The purpose of the script is to abstract the complexity of deploying a LlamaCpp API instance on a global scale.
 
 ## Dependencies
+- llama_cpp_python
 - fastapi
 - requests
 - uvicorn
 
 Install with `pip`.
 
-## How to
+## How to 🗺️
 To start using the api, you need to ensure that LlamaCpp is installed.
-- In a command prompt, run `py` or `python` `apiinashell.py`.
+- In a command prompt, run `uvicorn apiinashell:app --reload --host <ip address> --port <port number>`.
 This should start the api server at the configured address.
 - Open a browser and browse to the address displayed in the command prompt. You should see the api interface.
 - You can then enter a string to test it out. See video :
