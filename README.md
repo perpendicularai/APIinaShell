@@ -15,9 +15,8 @@ To start using the api, you need to ensure that LlamaCpp is installed.
 - Download a fresh GGUF converted model from [Huggingface](https://huggingface.co/models?sort=trending&search=gguf) and provide the path to it in the script.
 - In a command prompt, run:
 ```
-uvicorn apiinashell:app --reload --host <ip address> --port <port number>
+uvicorn apiinashell:app --reload --host <ip address> --port <port number> # This should start the api server at the configured address.
 ```
-This should start the api server at the configured address.
 - Open a browser and browse to the address displayed in the command prompt by appending 📰 /docs. You should see the :dependabot: api interface.
 - You can then enter a string to test it out. See video :
 
