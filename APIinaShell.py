@@ -28,4 +28,4 @@ async def gentext(prompt: str):
         }
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="172.16.0.135", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=0000) # Ignore these when setting the server ip and port at the command-line. As they'll be overidden.
