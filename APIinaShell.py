@@ -27,5 +27,3 @@ async def gentext(prompt: str):
             "llamacpp_response": final_response
         }
 
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=0000) # Ignore these when setting the server ip and port at the command-line. As they'll be overidden.
